@@ -166,7 +166,7 @@ Recourse/
 ### Installation
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-org/recourse.git
+    git clone https://github.com/alfinohatta/recourse.git
     ```
 2.  Open the project in Android Studio.
 3.  Copy `.env.example` to `.env` (Symbolic for prototype config).
