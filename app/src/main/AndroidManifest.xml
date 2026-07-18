@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Recourse">
+
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Recourse"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.activity.AgentDetailActivity"
+            android:label="Agent Details"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ui.activity.PolicyDetailActivity"
+            android:label="Policy Details"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ui.activity.IncidentDetailActivity"
+            android:label="Incident Details"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ui.activity.ClaimDetailActivity"
+            android:label="Claim Details"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ui.activity.RiskReportActivity"
+            android:label="Risk Report"
+            android:parentActivityName=".ui.activity.AgentDetailActivity" />
+
+        <activity
+            android:name=".ui.activity.RiskRegisterActivity"
+            android:label="Venture Risk Register"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ui.activity.GlossaryActivity"
+            android:label="Executive Glossary"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ui.activity.MarketIntelligenceActivity"
+            android:label="Market Intelligence"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ui.activity.RoadmapActivity"
+            android:label="Strategic Roadmap"
+            android:parentActivityName=".MainActivity" />
+
+    </application>
+
+</manifest>

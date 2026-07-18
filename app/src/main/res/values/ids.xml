@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Explicit IDs to ensure resolution -->
+    <item name="autoPauseSwitch" type="id" />
+    <item name="agentInsightText" type="id" />
+    <item name="brokerCommissionText" type="id" />
+    <item name="industryBenchmarkText" type="id" />
+    <item name="subscriptionSummary" type="id" />
+    <item name="avgRecoveryTimeText" type="id" />
+    <item name="guardrailTrendText" type="id" />
+    <item name="committedCapacityText" type="id" />
+    <item name="brokerReferralText" type="id" />
+</resources>

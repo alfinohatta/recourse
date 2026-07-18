@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Branding -->
+    <color name="recourse_primary">#1A237E</color> <!-- Navy 900 -->
+    <color name="recourse_primary_light">#534BAE</color>
+    <color name="recourse_primary_dark">#000051</color>
+
+    <!-- Secondary/Action -->
+    <color name="recourse_secondary">#00BFA5</color> <!-- Teal A700 -->
+    <color name="recourse_secondary_light">#5DF2D6</color>
+    <color name="recourse_secondary_dark">#008E76</color>
+
+    <!-- Status Colors -->
+    <color name="status_critical">#D32F2F</color> <!-- Red 700 -->
+    <color name="status_high">#F57C00</color> <!-- Orange 700 -->
+    <color name="status_medium">#FBC02D</color> <!-- Amber 700 -->
+    <color name="status_low">#1976D2</color> <!-- Blue 700 -->
+    <color name="status_success">#388E3C</color> <!-- Green 700 -->
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="bg_app">#F8F9FA</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_variant">#E9ECEF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#6C757D</color>
+    <color name="text_muted">#ADB5BD</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Borders -->
+    <color name="divider">#DEE2E6</color>
+
+    <!-- Legacy compat -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#1A237E</color>
+    <color name="purple_700">#000051</color>
+    <color name="teal_200">#00BFA5</color>
+    <color name="teal_700">#008E76</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
